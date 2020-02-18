@@ -1398,19 +1398,9 @@ end;
 //initialization
 //  MessageRouterConfig := DefaultConfig;
 //  MessageRouter:= TMessageRouterRendererSide.Create(MessageRouterConfig);
-//  MessageRouterConfigOnProductSelected := DefaultConfigOnProductSelected;
-//  MessageRouterOnProductSelected:= TMessageRouterRendererSide.Create(MessageRouterConfigOnProductSelected);
-//  MessageRouterConfigOnTabChanged:= DefaultConfigOnTabChanged;
-//  MessageRouterOnTabChanged := TMessageRouterRendererSide.Create(MessageRouterConfigOnTabChanged);
-//  MessageRouterConfigElevation:= DefaultConfigElevation;
-//  MessageRouterElevation := TMessageRouterRendererSideVarArgs.Create(MessageRouterConfigElevation);
-//  MessageRouterConfigPowerFrequency := DefaultConfigPowerFrequency;
-//  MessageRouterPowerFrequency := TMessageRouterRendererSideVarArgs.Create(MessageRouterConfigPowerFrequency);
+
 //finalization
 //  FreeAndNil(MessageRouter);
-//  FreeAndNil(MessageRouterOnProductSelected);
-//  FreeAndNil(MessageRouterOnTabChanged);
-//  FreeAndNil(MessageRouterElevation);
-//  FreeAndNil(MessageRouterPowerFrequency);
+
 
 end.
